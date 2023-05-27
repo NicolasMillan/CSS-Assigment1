@@ -1,0 +1,97 @@
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+.wrapper {
+    background-color: rgba(3, 3, 98, 0.553);
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+}
+/* Title */                    /*Selector #1*/
+h1{
+    text-align: center;
+    font-size: 15vh;
+    word-spacing: 2vh;
+}
+
+/* Subtitle */                 /* Selector #2 */
+h2{
+    text-align: center;
+    font-size: 5vh;
+    text-transform: capitalize;
+}
+
+/* Img Section */
+main section {
+    display: flex;
+    justify-content: center;
+}
+main section img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin: 3%;
+    padding: 1%;
+    background-color: rgba(3, 3, 251, 0.714);
+}
+
+/* Paragraph */
+main p {                        /* Selector #3 */
+    font-size: 5vh;
+    text-align: center;
+    color: initial;
+    justify-content: center;
+    padding: 2% 0;
+    text-align: justify;
+}
+
+/* List of Hoobies */
+h3{                            /* Selector #4 */
+    font-size: 15vh;
+    font-style: italic;
+    letter-spacing: 0.2vh;
+    word-spacing: 3vh;
+    margin: 3%;
+}
+ol li{
+    color: antiquewhite;
+    font-size: 5vh;
+    margin-left: 5%;
+    font-weight: bold;
+    line-height: 6vh;
+}
+
+/*  I  style the bullet points with their respective icon 
+    this part is extra just because i wanted to take it further
+    pleasse don't take points off my final grade from this place 
+    is just extra 
+
+    but i already set the bullet points bold
+*/
+#List li:nth-child(1){
+    list-style-image: url(./IMG/Hobbies\ Icons/Motorcycle.2.png);
+}
+#List li:nth-child(2){
+    list-style-image: url(./IMG/Hobbies\ Icons/Basketball2.png);
+}
+#List li:nth-child(3){
+    list-style-image: url(./IMG/Hobbies\ Icons/Book2.png);
+}
+#List li:nth-child(4){
+    list-style-image: url(./IMG/Hobbies\ Icons/Horse2.png);
+}
+#List li:nth-child(5){
+    list-style-image: url(./IMG/Hobbies\ Icons/Mountain2.png);
+}
+
+
+footer p{
+    text-align: right;
+    padding: 2% 2% 2% 0%;
+}
